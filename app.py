@@ -50,3 +50,6 @@ def max_min_length(list_of_words):
             if len(word) > len(max_word):
                 max_word = word
     return (min_word, len(min_word), max_word, len(max_word))
+
+if __name__ == "__main__":
+   app.run()
